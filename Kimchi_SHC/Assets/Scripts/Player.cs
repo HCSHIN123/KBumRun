@@ -79,6 +79,7 @@ public class Player : MonoBehaviour
             {
                 Destroy(collider.gameObject);
                 Hit();
+
             }
         }
         else if(collider.gameObject.CompareTag("Food"))
